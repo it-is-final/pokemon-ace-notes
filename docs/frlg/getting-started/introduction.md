@@ -34,27 +34,25 @@ As such, most of the FireRed/LeafGreen tutorials on this website will be operati
 [^4]:
     On non-Japanese versions of FR/LG, due to character set limitations, Thumb is very difficult to use.
     As such you will almost always see codes being written in ARM rather than Thumb in these versions of FR/LG.
+    The way the GBA processor determines whether to branch into an address in ARM or Thumb mode is by checking whether bit 0 of the address is set.
+    If it is not set, it will branch into there in ARM mode, and interpret data there as ARM machine code.
+    If it is set, then it will branch into there in Thumb mode, and interpret data there as Thumb 
 [^5]:
     If you want to use move/attack ACE, Sleipnir17’s tutorials are the main resources for learning how to access and use this method:
     
     - [Video tutorial](https://www.youtube.com/watch?v=kwOIOzczs8w)
-    - [Non-Japanese FireRed/LeafGreen written instructions](https://pastebin.com/UFspsi9N)
-    - [Japanese FireRed/LeafGreen written instructions](https://pastebin.com/BpGZgxnm)
+    - [FireRed/LeafGreen written instructions](https://pastebin.com/UFspsi9N)
 
 ## How to start using ACE?
 
 To get started on setting up access to grab/swap ACE, below are some resources you can use to do this:
 
-- [Papa Jefé’s video tutorial (non-Japanese FireRed)](https://www.youtube.com/watch?v=3jkcq8e9NO4&t)
+- [Papa Jefé’s video tutorial (FireRed)](https://www.youtube.com/watch?v=3jkcq8e9NO4&t)
     - You do not need to watch the whole video, but the rest of the video contains examples of how ACE can be used along with extensively using mail #255 corruption (mail glitch) in unique ways.
-- [Papa Jefé’s video tutorial (non-Japanese LeafGreen)](https://www.youtube.com/watch?v=8d2kd2_iVps)
-- [Papa Jefé’s written tutorial (non-Japanese FireRed/LeafGreen)](https://docs.google.com/spreadsheets/d/1b0cQkzVpqpMv40desNHaAH-NbHXXdANsS9edXnhdfCk/edit?gid=1742936281#gid=1742936281)
-- [merrp’s video demonstration (non-Japanese FireRed/LeafGreen)](https://www.youtube.com/watch?v=yVhK4pLC9ac)
+- [Papa Jefé’s video tutorial (LeafGreen)](https://www.youtube.com/watch?v=8d2kd2_iVps)
+- [Papa Jefé’s written tutorial (FireRed/LeafGreen)](https://docs.google.com/spreadsheets/d/1b0cQkzVpqpMv40desNHaAH-NbHXXdANsS9edXnhdfCk/edit?gid=1742936281#gid=1742936281)
+- [merrp’s video demonstration (FireRed/LeafGreen)](https://www.youtube.com/watch?v=yVhK4pLC9ac)
 - [merrp’s grap/swap ACE Pastebin](https://pastebin.com/pDXf5rGD)
     - While the Pastebin is useful for obtaining some information on Japanese ACE species, the instructions are inaccurate for Japanese FireRed/LeafGreen.
-- [Detelony’s video tutorial (Japanese FireRed/LeafGreen)](https://www.youtube.com/watch?v=i9d4AyI2l1A)
-- [Final’s written tutorial (Japanese FireRed/LeafGreen)](https://github.com/it-is-final/jpn-frlg-helper/blob/main/docs/ace-setup.md)
-- [Final’s alternate written tutorial (Japanese LeafGreen)](https://github.com/it-is-final/PokeG3ACE/blob/main/ace_notes/JP-LeafGreen-AltMethod/JP-LeafGreen-AltMethod.md)
-    - This tutorial uses a trade Pokémon to facilitate access to ACE rather than having to use one of your own Pokémon
 
 After this you can check out the resources located on this website’s [home page](../../index.md) for ways to utilize ACE with premade codes or go further with the [hexadecimal writer](../complex-payloads/hex-writer.md) or [Theocatic’s scripting environment](https://gist.github.com/Theocatic/39ed337ecd590b47fad14f791cf16bb5).
