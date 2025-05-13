@@ -1,3 +1,6 @@
+!!! tip
+    If you are playing on a LeafGreen game, there is an [easier method](alt-leafgreen-ace-set-up.md) that can be used to set up arbitrary code execution.
+
 ## Preamble
 
 Unlike the mail glitch in Western FRLG, Japanese FR/LG’s mail glitch writes to an area that comprises all of substructure 2, and small bits of substructures 3 and 4.
