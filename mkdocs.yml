@@ -20,6 +20,7 @@ nav:
   - Technical documentation:
     - Writing the hexwriter: technical-documentation/writing-hexwriter.md
     - Grab ACE exit: technical-documentation/grab-ace-exit.md
+    - Japanese FireRed/LeafGreen ACE setup: technical-documentation/jpn-grab-ace-set-up.md
 markdown_extensions:
   - attr_list
   - md_in_html

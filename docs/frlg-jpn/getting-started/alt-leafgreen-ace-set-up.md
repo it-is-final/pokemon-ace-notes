@@ -1,3 +1,7 @@
+---
+title: Alternative arbitrary code execution setup tutorial for Japanese LeafGreen
+---
+
 !!! important
     This method is LeafGreen only as it uses a version-exclusive trade Pokémon that is if you want a method that works for FireRed, check out [the main tutorial](ace-set-up.md).
 
